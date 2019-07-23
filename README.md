@@ -7,7 +7,9 @@ in terminal: python3 gesture_tracking.py
 
 dataset:
 from https://www.idiap.ch/resource/gestures/
+
 and capture_frame.py
 
 pre-trained model:
+------------------
 weights.hdf5 & model.json
