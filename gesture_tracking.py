@@ -26,8 +26,7 @@ def main():
     else:
         ret = False
     
-    gesture_list = ["peace","punch","stop","thumbs_up"]
-    
+
     while ret:
         frame=cv2.flip(frame,1)
         cv2.rectangle(frame,(300,200),(500,400),(0,255,0),1)
